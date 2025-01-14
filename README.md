@@ -50,7 +50,7 @@ TMDB_API_KEY=your_tmdb_api_key
 Replace the placeholder values with your own:  
 - your_mongo_uri: Your MongoDB connection string.
 - your_jwt_secret: A secret key for JWT authentication.
-- your_tmdb_api_key: Your API key from The Movie Database (TMDb).
+- your_tmdb_api_key: Your API key from [The Movie Database (TMDb)](https://www.themoviedb.org/).
 
 4. Navigate to the frontend directory and build the React application:
 ```
