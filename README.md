@@ -39,7 +39,7 @@ cd ../frontend
 npm install
 ```
 
-3. Create a .env file in the backend directory with the following content:
+3. Create a .env file in the project's root directory with the following content:
 ```
 PORT=5000
 MONGO_URI=your_mongo_uri
