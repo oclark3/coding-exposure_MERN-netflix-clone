@@ -26,35 +26,44 @@ Ensure you have the following installed on your machine:
 ## Getting Started
 
 1. Clone the repository and go into folder:
+```
 git clone https://github.com/oclark3/coding-exposure_MERN-netflix-clone.git
-
 cd coding-exposure_MERN-netflix-clone
+```
 
 2. Go into backend and frontend folders and install dependencies:
+```
 cd backend
 npm install
 cd ../frontend
 npm install
+```
 
 3. Create a .env file in the backend directory with the following content:
+```
 PORT=5000
 MONGO_URI=your_mongo_uri
 NODE_ENV=development
 JWT_SECRET=your_jwt_secret
 TMDB_API_KEY=your_tmdb_api_key
+```
 
 Replace the placeholder values with your own:
 
-your_mongo_uri: Your MongoDB connection string.
-your_jwt_secret: A secret key for JWT authentication.
-your_tmdb_api_key: Your API key from The Movie Database (TMDb).
+- your_mongo_uri: Your MongoDB connection string.
+- your_jwt_secret: A secret key for JWT authentication.
+- your_tmdb_api_key: Your API key from The Movie Database (TMDb).
 
 4. Navigate to the frontend directory and build the React application:
+```
 cd ../frontend
 npm run build
+```
 
 5. Start the application in the backend directory:
+```
 cd ../backend
 npm start
+```
 
 - The application should now start in localhost:5000
